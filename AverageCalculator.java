@@ -46,5 +46,5 @@ public class AverageCalculator {
         }
         System.out.println("Average: " + average);
     }
-}
+} 
 }
