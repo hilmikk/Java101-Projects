@@ -16,7 +16,7 @@ public class BMI {
         System.out.println("Your BMI: " + bmi);
 
 
-    }
+    } 
     
 }
 }
