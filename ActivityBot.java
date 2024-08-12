@@ -23,7 +23,7 @@ public class ActivityBot {
             System.out.println("Go to the Antarctica");
         }
 
-
+        inp.close();
     }
     
 }

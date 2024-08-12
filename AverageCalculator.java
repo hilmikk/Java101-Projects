@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class AverageCalculator {
     public static void main(String[] args) {
-        Scanner inp = new Scanner(System.in);
+        try(Scanner inp = new Scanner(System.in)){
         int mat,phy,chem,eng;
 
 
@@ -46,5 +46,5 @@ public class AverageCalculator {
         }
         System.out.println("Average: " + average);
     }
-    
+}
 }

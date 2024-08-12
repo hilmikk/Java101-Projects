@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class BMI {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        try(Scanner input = new Scanner(System.in)){
         double height,weight,bmi;
 
 
@@ -18,4 +18,5 @@ public class BMI {
 
     }
     
+}
 }
