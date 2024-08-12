@@ -4,7 +4,7 @@ public class Calculator {
         try (Scanner inp = new Scanner(System.in)) {
             int a,b;
 
-            System.out.println("Select your operator\n +\n-\n*\n/");
+            System.out.println("Select your operator\n+\n-\n*\n/");
             String op = inp.next();
             System.out.println("Your first number:");
             a = inp.nextInt();
