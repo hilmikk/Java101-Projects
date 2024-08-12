@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class ChineseZodiac {
     public static void main(String[] args) {
-        System.out.println("CHECK IF YOUR DATE IS VALID");
 
         try (Scanner in = new Scanner(System.in)) {
             System.out.println("Birth Year:");
