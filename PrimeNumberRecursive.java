@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;   
 public class PrimeNumberRecursive {
     static int isPri (int num, int i){
         if(num==i){
@@ -15,7 +15,7 @@ public class PrimeNumberRecursive {
 
     }
     public static void main(String[] args) {
-        
+
         Scanner in = new Scanner(System.in);
         System.out.println("Your number: ");
         int a = in.nextInt();
